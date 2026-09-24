@@ -30,7 +30,7 @@ fi
 
 # types of file 
 # block spc file-- contains image or video -b
-# charc file-- conatins spec charcter or normal file -c
+# charc file-- conatins  charcter file -c  /dev/tty-crw-rw-rw- 1 root tty 5, 0 Sep 24 09:58 /dev/tty
 # to check file is empty or not -s
 if [ -b $file ]
 then
@@ -52,3 +52,5 @@ echo "File is not empty"
 else
 echo "file is empty"
 fi
+
+# -r to chekc read permission -w and -x to check write and executable permssion
