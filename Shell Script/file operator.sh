@@ -27,3 +27,28 @@ echo "It is a DIr "
 else
 echo "Not a dir"
 fi
+
+# types of file 
+# block spc file-- contains image or video -b
+# charc file-- conatins spec charcter or normal file -c
+# to check file is empty or not -s
+if [ -b $file ]
+then
+echo "File is binary"
+else
+echo "Not exsist"
+fi
+
+if [ -c $file ]
+then
+echo "File is normal"
+else
+echo "Not exsist"
+fi
+
+if [ -s $file ]
+then
+echo "File is not empty"
+else
+echo "file is empty"
+fi
