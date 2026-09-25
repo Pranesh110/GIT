@@ -1,5 +1,5 @@
 # -e to enable interpretor to make the inout to put in same line and to enable \c make the input in same line
-
+#! /bin/bash
 echo -e "ENter  FIle name: \c"
 read file
 echo -e "ENter dir name: \c"

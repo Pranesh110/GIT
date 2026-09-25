@@ -1,3 +1,4 @@
+#! /bin/bash
 echo -e "ENter file name: \c"
 read file
 if [ -f $file ]
